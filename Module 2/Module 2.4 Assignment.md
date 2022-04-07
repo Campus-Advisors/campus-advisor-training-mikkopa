@@ -14,7 +14,7 @@ git checkout -b new-branch
 echo "Hello World" > README.md
 git add .
 git commit -m "first commit on new-branch"
-git checkout master
+git checkout main
 echo "Hola" > README.md
 git add .
 git commit -m "second commit on master"
